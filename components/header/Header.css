@@ -1,0 +1,481 @@
+
+#contFirstPage {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    background: #FFFFFF;
+/*    border: 2px red;*/
+}
+
+/*---Section 1 on the main page----------------------------*/
+
+/*section1 on Main page */
+#section1MainPage {
+    display: flex; /*block;*/
+    flex-direction: column;
+    justify-content: center;
+    width:   100%;/*400px;*/
+    height: auto; /*700px;*/
+    margin: 0;
+    z-index: 1;
+    background: white;
+    color: #3C4447;
+    min-height: 550px;
+}
+
+/*section1 on Main page for screen size < 880px*/
+#section1MainPage_880 {
+    display: flex; /*block;*/
+    flex-direction: column;
+    align-items: center;
+    width:   100%;/*400px;*/
+    height: auto; /*700px;*/
+    margin: 0;
+    z-index: 1;
+    background: white;
+    color: #3C4447;
+    min-height: 550px;
+}
+
+
+/* container of TitleText */
+.contTitleText {
+    display: flex;
+    flex-direction: column;
+    width: 380px;
+    margin: 130px 40px 40px 108px;
+}
+
+
+#footerSection1{
+/*    display: none;*/
+
+align-self: flex-start;
+
+}
+
+
+/*-- end of section 1 Main Page ----------------*/
+
+
+/*-- section 3 of Main Page -------------------------*/
+#section3MainPage {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    background: #FFFFFF;
+    color: black;
+}
+
+
+/* Questions on first page */
+#frequentlyQuestions {
+    width: 569px;
+    height: 68px;
+    margin-top: 100px;
+    margin-bottom: 10px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 140%;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #3C4447;
+}
+
+/* container of an image and questions Page 1 */
+#contImgQuestions {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    width: 100%;
+    height: auto;
+    background: #FFFFFF;
+    color: black;
+}
+
+/* Group 416 */
+#contImgFrequentlyQuestions {
+    width: 308px;
+    height: 490px;
+    margin-top: 8%;
+    text-align: left;
+}
+
+/* container of questions and answers*/
+#contQuestionsAnswers {
+    width: 600px;
+    height: auto;
+    margin-top: 28px;
+    margin-left: 15px;
+    margin-bottom: 80px;
+
+}
+
+/* container of question and answer   Rectangle 314*/
+.contQuestionAnswer {
+    box-sizing: border-box;
+    width: 100%;
+    height: auto;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 10px rgba(59, 179, 189, 0.25);
+    border-radius: 15px;
+    margin-top: 10px;
+}
+
+/* container of a question */
+.contQuestion {
+    width: auto;
+    height: auto;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    padding-top: 20px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 140%;
+    letter-spacing: -0.02em;
+    color: #3BB3BD;
+}
+
+#imgFrequentlyQuestions {
+    width: 100%;/*308px;*/
+    height: 100%;/*490px;*/
+}
+
+/* title of Question */
+.titleQuestion {   
+    width: auto;
+    height: 98px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 140%;
+    letter-spacing: -0.02em;
+    color: #3BB3BD;
+    padding: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+/* answer tu question */
+.contAnswer {
+    width: auto;
+    height: auto;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    letter-spacing: -0.02em;
+    color: #3C4447;
+    padding: 0px 20px 20px 20px;
+}
+
+/*-- end of section 3 Main Page ----------------*/
+
+
+
+/*-- start for short menu -----*/
+
+/* Rectangle 90 */
+#loginButton {
+    box-sizing: border-box;
+    width: 345px;
+    height: 40px;
+    margin-bottom: 60px;
+    margin-left: 30px;
+    background: #FFFFFF;
+    border: 1px solid #3BB3BD;
+    border-radius: 50px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: capitalize;
+    color: #3BB3BD;
+    cursor: pointer;
+}
+
+#loginButton:hover {
+    background: #E8F4F5;
+}
+
+
+/*-- end for short menu -----*/
+
+/*---different css for different screen sizes--------------*/
+/* For Mobile: 320 - 540 */
+@media screen and (max-width: 540px) {
+    .view {
+        width: 400px;
+    }
+    #contImgFrequentlyQuestions {
+        display: none;
+    }     
+    #contImgQuestions {
+        display: flex;
+        flex-direction: row;/*column;*/
+        /*align-items: center;*/
+        justify-content: center;
+    }
+    /*section1 on Main page */
+    #section1MainPage {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    /* container of TitleText */
+    .contTitleText {
+        margin-top: 50px; 
+    }
+
+    /* Questions on first page */
+    #frequentlyQuestions {
+        width: 345px;
+        height: 87px;
+        font-size: 36px;
+        text-align: left;
+    }    
+    /* container of questions and answers*/
+    #contQuestionsAnswers {
+        width: 345px;
+        margin-left: 0px;
+    }   
+    /* for short menu*/
+    #shortMenu {
+        width: 24px;
+    }
+ 
+
+    /* Title */
+    #overview {
+        font-size: 36px;
+    }
+    #contOverview {
+        width: 320px;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    /* for short menu-----------------*/
+    #shortMenu {
+        width: 24px;
+        height: 24px;
+    }
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        float: none;
+    }
+    nav ul li {
+        display: block;
+        float: none;
+        list-style: none;
+        position: relative;
+        width: 80px;
+    }
+    li a {
+        display: block;
+        width: 75px;
+        margin-left: 10px;
+        padding-left: 0;
+    }
+    /* Rectangle 196 */
+    nav ul li ul {
+        display: none;
+        position: absolute;
+        top:10px;
+        left: 100px;
+        width: 140px;
+        height: 195px;
+        padding-left: 0;
+    }
+    nav ul li a {
+        align-items: left;
+        text-align: left;
+        padding-left: 20px;   
+    }
+         
+}
+
+/* For Tablets:  541 - 690 */
+@media screen and (min-width: 541px) and (max-width: 690px) {
+
+
+    /* for short menu-----------------*/
+    #shortMenu {
+        width: 24px;
+        height: 24px;
+    }
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        float: none;
+    }
+    nav ul li {
+        display: block;
+        float: none;
+        list-style: none;
+        position: relative;
+        width: 80px;
+    }
+    li a {
+        display: block;
+        width: 75px;
+        margin-left: 10px;
+        padding-left: 0;
+    }
+    /* Rectangle 196 */
+    nav ul li ul {
+        display: none;
+        position: absolute;
+        top:10px;
+        left: 100px;
+        width: 140px;
+        height: 195px;
+        padding-left: 0;
+    }
+    nav ul li a {
+        align-items: left;
+        text-align: left;
+        padding-left: 20px;   
+    }
+    #menuFooter, #menuFooter2 { 
+        max-width:  420px;
+    }      
+
+    #contImgFrequentlyQuestions {
+        display: none;
+    }     
+    #contImgQuestions {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    /*section1 on Main page */
+    #section1MainPage {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    /* container of TitleText */
+    .contTitleText {
+        margin-top: 50px; 
+    }
+
+    /* Questions on first page */
+    #frequentlyQuestions {
+        width: 345px;
+        height: 87px;
+        font-size: 36px;
+        text-align: left;
+    }    
+    /* container of questions and answers*/
+    #contQuestionsAnswers {
+        width: 345px;
+        margin-left: 0px;
+    }
+    #menuFooter, #menuFooter2 { 
+        max-width:  420px;
+    }    
+}
+
+/* For Tablets:  691 - 880 */
+@media screen and (min-width: 691px) and (max-width: 880px) {
+
+    /* for short menu-----------------*/
+    #shortMenu {
+        width: 24px;
+        height: 24px;
+    }
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        float: none;
+    }
+    nav ul li {
+        display: block;
+        float: none;
+        list-style: none;
+        position: relative;
+        width: 80px;
+    }
+    li a {
+        display: block;
+        width: 75px;
+        margin-left: 10px;
+        padding-left: 0;
+    }
+    /* Rectangle 196 */
+    nav ul li ul {
+        display: none;
+        position: absolute;
+        top:10px;
+        left: 100px;
+        width: 140px;
+        height: 195px;
+        padding-left: 0;
+    }
+    nav ul li a {
+        align-items: left;
+        text-align: left;
+        padding-left: 20px;   
+    }
+    #menuFooter, #menuFooter2 { 
+        max-width:  420px;
+    }  
+
+
+    #contImgFrequentlyQuestions {
+        display: none;
+    }     
+    #contImgQuestions {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    /*section1 on Main page */
+    #section1MainPage {
+        flex-direction: column;
+        align-items: center;
+    }
+    /* container of TitleText */
+    .contTitleText {
+        margin-top: 50px; 
+    }
+    /*picture: with  PC*/
+
+    #contOverview {
+        width: 691px;
+    }
+}
+
+/* For Tablets:  881 - 960 */
+@media screen and (min-width: 881px) and (max-width: 960px) {
+  
+    #contOverview {
+        width: 961px;
+    }
+}
+
+/* For Tablets:  961 - 1060 */
+@media screen and (min-width: 961px) and (max-width: 1060px) {
+    #contOverview {
+        width: 961px;
+    }
+}

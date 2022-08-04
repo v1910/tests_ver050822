@@ -1,0 +1,123 @@
+/*InitSectionHomePage.css - init data for Section of Home Page */
+
+/*-- section 3 of Main Page -------------------------*/
+#section3MainPage {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    background: #FFFFFF;
+    color: black;
+}
+
+
+/* Questions on first page */
+#frequentlyQuestions {
+    width: 569px;
+    height: 68px;
+    margin-top: 100px;
+    margin-bottom: 10px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 140%;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #3C4447;
+}
+
+/* Group 416 */
+#contImgFrequentlyQuestions {
+    width: 308px;
+    height: 490px;
+    margin-top: 90px;
+    text-align: left;
+}
+
+
+/* container of an image and questions Page 1 */
+#contImgQuestions {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    width: 100%;
+    height: auto;
+    background: #FFFFFF;
+    color: black;
+}
+
+/* container of questions and answers*/
+#contQuestionsAnswers {
+    width: 600px;
+    height: auto;
+    margin-top: 28px;
+    margin-left: 15px;
+    margin-bottom: 80px;
+
+}
+
+/* container of question and answer   Rectangle 314*/
+.contQuestionAnswer {
+    box-sizing: border-box;
+    width: 100%;
+    height: auto;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 10px rgba(59, 179, 189, 0.25);
+    border-radius: 15px;
+    margin-top: 10px;
+}
+
+/* container of a question */
+.contQuestion {
+    width: auto;
+    height: auto;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    padding-top: 20px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 140%;
+    letter-spacing: -0.02em;
+    color: #3BB3BD;
+}
+
+#imgFrequentlyQuestions {
+    width: 100%;/*308px;*/
+    height: 100%;/*490px;*/
+}
+
+/* title of Question */
+.titleQuestion {   
+    width: auto;
+    height: 98px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 140%;
+    letter-spacing: -0.02em;
+    color: #3BB3BD;
+    padding: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+/* answer tu question */
+.contAnswer {
+    width: auto;
+    height: auto;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    letter-spacing: -0.02em;
+    color: #3C4447;
+    padding: 0px 20px 20px 20px;
+}
+
+/*-- end of section 3 Main Page ----------------*/

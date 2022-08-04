@@ -1,0 +1,327 @@
+/*MenuMainPage.css - for main menu of home page*/
+
+/*---Main menu-------------------------------------------------*/
+#contHeader_198 { /* Rectangle 198 */
+    display: flex;
+    position: sticky;
+    align-items: center;
+    top: 0;
+    left: 0;
+    width:  100%;
+    height: 70px;
+    margin: 0;
+    padding: 0;
+    background: #FFFFFF; /*blue;*/
+    z-index: 900;
+    margin-bottom: 0;
+}
+
+nav {
+    width: 100%;
+    background-color: #FFFFFF; 
+  }
+  
+nav ul {
+    top: 0;
+}
+
+nav ul li {
+    float: left;
+    list-style: none;
+    position: relative;
+}
+
+nav ul li a {
+    display: block;
+    text-decoration: none;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    letter-spacing: -0.02em;
+    text-transform: capitalize;    
+    padding: 10px 14px;
+    color: #3C4447;
+    align-items: center;   
+}
+
+/* Rectangle 196 */
+nav ul li ul {
+    display: none;
+    position: absolute;
+    top:35px;
+    left: 4px;
+    width: 120px;
+    height: auto; /*195px;*/
+    background-color: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(59, 179, 189, 0.25);
+    border-radius: 0px 0px 15px 15px;
+    padding-left: 10px;
+    text-align: left;
+}
+
+/* Rectangle 196 */
+nav ul li:hover ul {
+    display: block;
+    z-index: 998;
+}
+
+nav ul li ul li {
+    display: block;
+    width: 120px;  /*42px;*/
+    height: 30px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.02em;
+    text-transform: capitalize;
+    color: #3C4447;
+    z-index: 1;
+}
+
+nav ul li ul li a {
+    display: block;
+    padding: 0;
+    font-size: 16px;
+    z-index: 1;
+}
+
+nav ul li ul li a:hover {
+    background-color: #f3f3f3;
+    width: 100%;
+    padding: 0;
+}
+
+nav ul li a:hover {
+    background-color: #f3f3f3;
+}
+
+img {
+    z-index: -1;
+}
+
+#contLogin {     /* Login */
+  /* Rectangle 90 */
+  width: 52px;
+  height: 40px;
+  position: relative;
+  height: 40px;
+  background: #FFFFFF;
+  border: 1px solid #3BB3BD;
+  border-radius: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  cursor: pointer;
+  margin-left: 40px;
+}
+
+#contLogin:hover {
+  background: #E8F4F5;
+}
+
+
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#contLoginText { /* Login Text*/
+   font-family: 'Roboto';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 12px;
+   line-height: 140%;
+   text-transform: capitalize;
+   color: #3BB3BD;
+}
+
+
+#contMainMenu_235 { /* Group 235 */
+/*    position: relative;*/
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 35px;
+    line-height: 140%;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;    
+    text-align: right;
+    letter-spacing: -0.02em;
+    text-transform: capitalize;
+    color: #3C4447;
+    margin: 0;
+}
+
+
+#contMainMenu { /* main menu */
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        height: 35px;
+        line-height: 140%;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;    
+        text-align: right;
+        letter-spacing: -0.02em;
+        text-transform: capitalize;
+        color: #3C4447;
+        margin: 0;
+}
+
+#contLogo {
+    display: inline;
+    width: 94px;
+    height: 52px;
+    margin-right: 300px;/*100px; */
+    cursor: pointer;
+}    
+
+/* for short menu*/
+#shortMenu {
+    width: 24px;
+    height: 16px;
+    margin-right: 5%;
+    cursor: pointer;
+}
+
+/* img for short menu*/
+#imgShortMenu {
+    width: 24px;
+    height: 16px;
+}
+
+/*SectionTest.css - css for the section 1 of a test*/
+
+.contTitleTextTest {
+    display: flex;
+    flex-direction: column;
+    width: 459px;
+    margin: 70px 230px 80px 0;    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 120%;
+    letter-spacing: -0.02em;   
+    color: #3C4447;    
+}
+
+#contImgTest {
+    width: 257px;
+    height: 191px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)) drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    margin-top: 35px;
+}
+
+#titleTextSection1Tests {
+    display: block;
+    align-items: left;
+    margin-left: 0;
+    margin-bottom: 20px;
+    letter-spacing: -0.02em;
+    color: #3BB3BD;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+}
+
+#titleTextSection1TestsQuestion {
+    color: black;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+}
+
+
+
+
+/*---different css for different screen sizes--------------*/
+@media screen and  (max-width: 700px) {
+    #contLogo {
+            margin-right: 10px;/*100px; */
+    }  
+
+    /* for short menu*/
+    #shortMenu {
+        width: 24px;
+        margin-left: 150px;
+    }
+     
+    #contHeader_198 { /*show short menu*/
+        display: flex;
+    }
+
+    #contMainMenu { /*not show main menu*/
+        display: none;
+    }
+
+}
+
+@media screen and  (min-width: 701px) and  (max-width: 890px) {
+    #contLogo {
+        margin-right: 10px;/*100px; */
+    }  
+
+    /* for short menu*/
+    #shortMenu {
+        width: 24px;
+        margin-left: 400px;
+    }
+
+    #contHeader_198 { /*not show short menu*/
+        display: none;
+    }
+
+    #contMainMenu { /*show main menu*/
+        display: flex;
+    }
+
+}
+
+@media screen and  (min-width: 891px) and  (max-width: 990px) {
+    #contLogo {
+        margin-right: 150px;/*200px; */
+    }     
+
+    #contHeader_198 { /*not show short menu*/
+        display: none;
+    }
+
+    #contMainMenu { /*show main menu*/
+        display: flex;
+    }
+}
+
+@media screen and  (min-width: 991px) {
+    #contLogo {
+        margin-right: 220px;/*200px; */
+    }     
+
+    #contHeader_198 { /*not show short menu*/
+        display: none;
+    }
+
+    #contMainMenu { /*show main menu*/
+        display: flex;
+    }
+}
+
+/*----end of Main menu--------------------------------*/

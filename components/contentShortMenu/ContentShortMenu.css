@@ -1,0 +1,47 @@
+/*ContentShortMenu.css - for content of Short Menu*/
+
+/* Rectangle 747 */
+#contShortMenu {
+    display: none;
+    position: absolute;
+    top: 70px;
+    left: 0px;
+    width: 100%;
+    height: auto; /*537px;*/
+    background: #FFFFFF;
+    z-index: 900;
+}
+
+#contShortMenu ul li {
+    display: block;
+    float: none;
+    list-style: none;
+    position: relative;
+    width: 80px;
+}
+
+#contShortMenu ul li a {
+    display: inline-block;
+    text-decoration: none;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    letter-spacing: -0.02em;
+    text-transform: capitalize;    
+    padding: 10px 14px;
+    color: #3C4447;
+    align-items: center; 
+}
+
+#contShortMenu ul li ul {
+    margin-left: 50px;
+    margin-top: -20px;
+}
+
+
+#contShortMenu ul li:hover ul {
+    display: block;
+    z-index: 998;
+}

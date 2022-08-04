@@ -1,0 +1,138 @@
+/*InitSection1HomePage.css - to init Section1 of Home Page */
+
+/*-- section 2 of Main Page -------------------------*/
+/* Rectangle 320 */
+#section2MainPage {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    background: #E8F6F7;
+}
+
+/* Rectangle 320 */
+#contSection2MainPage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    max-width: 1280px;
+    height: auto;
+    background: #E8F6F7;
+    color: black;
+}
+
+/* Title */
+#overview {
+    display: block;
+    width: 192px;
+    height: 68px;
+    margin-top: 123px;
+    margin-bottom: 18px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 140%;
+    letter-spacing: -0.02em;
+    color: #3C4447;
+}
+
+#contOverview {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: auto;
+    margin-bottom: 164px;
+}
+
+/* Rectangle 322 */
+.contOverviewItem {
+    width: 295px;
+    height: 195px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 10px rgba(59, 179, 189, 0.25);
+    border-radius: 15px;
+    margin: 8px;
+    padding: 10px;
+}
+
+/* Items of Overview */
+.titleOverviewItem {
+    width: 48px;
+    height: 28px;
+    margin-top: 18px;
+    margin-left: 8px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 140%;
+    letter-spacing: -0.02em;  
+    color: #414648;
+}
+
+/* Ellipse 12 orandge */
+.ellipseOrangeOverviewItem {
+    width: 70px;
+    height: 70px;
+    margin-left: 73%;
+    margin-top: -30px;
+    background: #FFD0A5;
+    border-radius: 50%;
+    box-shadow: 0px 4px 4px rgba(255, 208, 165, 0.25);
+    z-index: 1;
+}
+
+/* Ellipse 12 green */
+.ellipseGreenOverviewItem {
+    width: 70px;
+    height: 70px;
+    margin-left: 73%;
+    margin-top: -30px;
+    background: #91DD9A;
+    border-radius: 50%;
+    box-shadow: 0px 4px 4px rgba(255, 208, 165, 0.25);
+    z-index: 1;
+}
+
+/* Ellipse 12 blue */
+.ellipseBlueOverviewItem {
+    width: 70px;
+    height: 70px;
+    margin-left: 73%;
+    margin-top: -30px;
+    background: #9DD9DE;
+    border-radius: 50%;
+    box-shadow: 0px 4px 4px rgba(255, 208, 165, 0.25);
+    z-index: 1;
+}
+
+.imgEllipseOverviewItem {
+    width: 34px;
+    height: 31px;
+    margin-top: 26%;
+    margin-left: 30%;
+    z-index: 2;
+}
+
+/* text of EllipseOverviewItem  */
+.textEllipseOverviewItem {  
+    display: flex;
+    align-items: center;
+    width: 260px;
+    height: 80x;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    letter-spacing: -0.02em;
+    color: #3C4447;
+    margin-top: 6px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+/*-- end of section 2 Main Page ----------------*/

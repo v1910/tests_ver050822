@@ -1,0 +1,47 @@
+/* Section1MainPage.css - for Section1 of Main Page.css"*/
+
+
+/*---different css for different screen sizes--------------*/
+@media screen and (min-width: 300px)  and (max-width: 774px) {
+    /*section1 on Main page for screen size < 880px*/
+    #section1MainPage_smallScreen {
+        display: flex; /*block;*/
+        flex-direction: column;
+        align-items: center;
+        width:   100%;/*400px;*/
+        height: auto; /*700px;*/
+        margin: 0;
+        z-index: 1;
+        background: white;
+        color: #3C4447;
+        min-height: 550px;
+    }
+
+    #contSection1 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #section1MainPage_bigScreen{
+        display: none;
+    }
+
+}
+@media screen and (min-width: 775px) {
+
+    #section1MainPage_bigScreen{
+        display: block;
+    }
+
+    #contSection1 {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    #section1MainPage_smallScreen{
+        display: none;
+    }
+}

@@ -1,0 +1,46 @@
+/* onClickTestSection1.css  for section 1 of a test*/
+
+.contTitleTextTest {
+    display: flex;
+    flex-direction: column;
+    width: 459px;
+    margin: 70px 230px 80px 0;    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 120%;
+    letter-spacing: -0.02em;   
+    color: #3C4447;    
+}
+
+#contImgTest {
+    width: 257px;
+    height: 191px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)) drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    margin-top: 35px;
+}
+
+#titleTextSection1Tests {
+    display: block;
+    align-items: left;
+    margin-left: 0;
+    margin-bottom: 20px;
+    letter-spacing: -0.02em;
+    color: #3BB3BD;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+}
+
+#titleTextSection1TestsQuestion {
+    color: black;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+}
+
